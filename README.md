@@ -22,6 +22,12 @@ The project consists of three parts:
 
 - Mac OS X (for the MinilibX graphic library)
 
+## Installation
+
+```bash
+git clone --recurse-submodules https://github.com/kadogams/corewar.git; cd corewar; make
+```
+
 ## Usage
 
 - compile one or more .s files using the asm binary (premade champions available in [_./resouces/champs/_](https://github.com/kadogams/42_projects/tree/master/corewar/resources/champs))
@@ -29,7 +35,7 @@ The project consists of three parts:
 
 ### asm
 
-```bash
+
 ./asm target_file.s
 ```
 
